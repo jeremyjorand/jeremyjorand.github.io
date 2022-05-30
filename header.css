@@ -1,0 +1,75 @@
+header {
+  background-color: var(--colorBlueWavy);
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid var(--colorGrey);
+}
+header div {
+  display: flex;
+  align-items: center;
+}
+header img {
+  width: 4rem;
+  margin: 1rem 2rem;
+}
+h1 {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  width: 30vw;
+  font-family: var(--fontPrincipal);
+}
+h1 span {
+  color: var(--colorGrey);
+}
+nav {
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: var(--fontPrincipal);
+}
+
+nav li {
+  list-style: none;
+  font-size: 1.3em;
+  padding: 0 1em;
+  text-transform: uppercase;
+  color: white;
+}
+nav ul {
+  list-style-type: none;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: var(--colorFirst);
+}
+.sous {
+  display: none;
+}
+nav ul li:hover ul {
+  display: list-item;
+  z-index: 99999;
+  position: absolute;
+}
+nav ul li {
+  float: left;
+}
+nav ul li ul li a {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: #2c3e50;
+}
+nav ul li ul {
+  background-color: white;
+  border: var(--colorGrey) solid 0.1rem;
+  width: 20rem;
+  padding-left: 0;
+}
+nav ul li ul li {
+  padding: 0 0 0 0.5rem;
+}

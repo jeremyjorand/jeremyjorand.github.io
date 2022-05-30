@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: var(--colorFirst);
+  width: 100vw;
+}
+main {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.droite {
+  background-color: white;
+  margin: 2rem 3rem;
+}
+.identity {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+main h1 {
+  color: var(--colorBlueWavy);
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 2em;
+  width: 100%;
+  font-family: var(--fontPrincipal);
+}
+.identity p {
+  text-transform: uppercase;
+  color: var(--colorBlueWavy);
+  text-align: center;
+  font-size: 1.5em;
+  border-bottom: 3px var(--colorBlueWavy) solid;
+  padding-bottom: 2rem;
+  font-family: var(--fontPrincipal);
+}
+.formation {
+  padding: 2rem 2rem 0 2rem;
+  font-family: var(--fontPrincipal);
+}
+h2 {
+  text-transform: uppercase;
+  color: white;
+  background-color: var(--colorGrey);
+  padding: 0.3rem;
+  margin: 2rem 0;
+  /* border: var(--colorBlueWavy) solid 2px; */
+}
+
+/* .formation p{
+    color: var(--colorBlueWavy);
+    text-align: justify;
+    font-size: 1.3em;
+    padding: 4rem 0;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+.diplome {
+  color: var(--colorBlueWavy);
+  font-size: 1.2em;
+  font-family: var(--fontPrincipal);
+}
+.diplome li {
+  padding: 1rem 0;
+}
+.logoTechno {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-right: 2rem;
+}
+.logoTechno img {
+  height: 5rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+}
+.experience {
+  padding: 0 2rem 0 2rem;
+  font-family: var(--fontPrincipal);
+}
+.mesBoulots {
+  font-size: 1.2em;
+  margin-top: 3rem;
+  font-family: var(--fontPrincipal);
+  width: 90%;
+}
+.mesBoulots ul li {
+  color: var(--colorBlueWavy);
+  margin: 1em 0 1em;
+}
+.date {
+  text-transform: uppercase;
+}
+.gauche {
+  background-color: var(--colorBlueWavy);
+  margin: 2rem 0;
+  width: 40%;
+  font-family: var(--fontPrincipal);
+  /* border: var(--colorBlueWavy) solid 2px; */
+}
+.gauche p {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.photo {
+  border-radius: 70%;
+  width: 70%;
+}
+.profil {
+  color: var(--colorGrey);
+  border-bottom: 2px var(--colorGrey) solid;
+  width: 100%;
+}
+.detailProfil {
+  color: white;
+  font-size: 1.2em;
+  font-family: var(--fontPrincipal);
+  text-align: justify;
+  margin: 0 2.6rem;
+}
+.contact {
+  color: var(--colorGrey);
+  border-bottom: 2px var(--colorGrey) solid;
+}
+h3 {
+  margin-left: 1rem;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+.coordonnees {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2em;
+  width: 100%;
+}
+.coordonnees ul a {
+  text-decoration: none;
+  color: white;
+}
+.coordonnees ul img {
+  width: 1.5rem;
+}
+.reseauxSociaux {
+  display: flex;
+}
+.reseauxSociaux img {
+  border-radius: 5px;
+}
+.reseauxSociaux li a {
+  margin-right: 1rem;
+}
+.gauche ul {
+  list-style-type: none;
+  margin-top: 50px;
+}
+.gauche ul li {
+  margin: 0.5em 0 0.5em 0;
+}
+.loisirs {
+  color: var(--colorGrey);
+  border-bottom: 2px var(--colorGrey) solid;
+  width: 100%;
+}
+.listeLoisirs {
+  color: white;
+  font-size: 1.2em;
+  margin-bottom: 3rem;
+}
+
+ul {
+  list-style-type: none;
+}
+.softSkills {
+  color: var(--colorGrey);
+  border-bottom: 2px var(--colorGrey) solid;
+  width: 100%;
+}
+.listeSoftSkills {
+  color: white;
+  font-size: 1.2em;
+}
