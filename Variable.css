@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
 
-:root{
-    --colorGrey: #ce9824; 
-    --colorBlueWavy: #2c3e50 ;
-    --colorFirst: #405f86;
-    --fontPrincipal:'PT Sans Narrow', sans-serif;
+:root {
+  --colorGrey: #ce9824;
+  --colorBlueWavy: #2c3e50;
+  --colorFirst: #405f86;
+  --fontPrincipal: 'PT Sans Narrow', sans-serif;
 }

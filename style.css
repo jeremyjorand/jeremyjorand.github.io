@@ -3,7 +3,7 @@
 }
 body {
   background-color: var(--colorFirst);
-  width: 100vw;
+  width: 99vw;
 }
 h4 {
   text-align: center;
@@ -13,11 +13,11 @@ h4 {
   font-family: var(--fontPrincipal);
 }
 p {
-  width: 70vw;
+  width: 55vw;
   margin: 2rem auto;
   color: white;
-  font-size: 1.2rem;
-  font-family: var(--fontPrincipal);
+  font-size: 1.3rem;
+
   text-align: justify;
 }
 button {
@@ -32,6 +32,7 @@ button {
 button a {
   color: var(--colorBlueWavy);
   text-decoration: none;
+  padding: 0 3.9rem;
 }
 .positionPicture {
   background-color: var(--colorBlueWavy);
@@ -47,6 +48,7 @@ h5 {
   margin: 2rem;
   font-size: 1.8rem;
   text-align: center;
+  font-family: var(--fontPrincipal);
 }
 p a {
   color: white;
